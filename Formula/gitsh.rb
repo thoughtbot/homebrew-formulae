@@ -2,10 +2,10 @@ require 'formula'
 
 class Gitsh < Formula
   homepage 'http://thoughtbot.github.io/gitsh/'
-  url 'http://thoughtbot.github.io/gitsh/gitsh-0.2.tar.gz'
-  sha1 '5618056dcf1b9a496a47ca6016f07086fb605a2b'
+  url 'http://thoughtbot.github.io/gitsh/gitsh-0.3.tar.gz'
+  sha1 '7f3a4e41f8bf20da3c6e7f7309dd1cba902be957'
 
-  system_ruby_version = `ruby -e "puts RUBY_VERSION"`.chomp
+  system_ruby_version = `/usr/bin/ruby -e "puts RUBY_VERSION"`.chomp
   if system_ruby_version < '2.0.0'
     depends_on 'Ruby'
   end
