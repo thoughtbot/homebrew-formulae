@@ -1,9 +1,9 @@
 require 'formula'
 
 class Rcm < Formula
-  homepage 'http://mike-burns.github.io/rcm'
-  url 'https://github.com/mike-burns/rcm/archive/v1.1.0.tar.gz'
-  sha1 '68e527a4a3e7b4cc953315e711153f151b56f835'
+  homepage 'http://thoughtbot.github.io/rcm'
+  url 'https://github.com/thoughtbot/rcm/archive/v1.2.0.tar.gz'
+  sha1 'b512a2f3d4d81e726e685c4807c4167c232fb09c'
 
   depends_on "autoconf"
   depends_on "automake"
