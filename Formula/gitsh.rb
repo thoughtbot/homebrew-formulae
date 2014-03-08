@@ -5,12 +5,12 @@ class Gitsh < Formula
   HOMEBREW_RUBY_PATH = "#{HOMEBREW_PREFIX}/bin/ruby"
 
   homepage 'http://thoughtbot.github.io/gitsh/'
-  url 'http://thoughtbot.github.io/gitsh/gitsh-0.4.tar.gz'
-  sha1 'bf4b7005daa23095285e32347064b69db5573d28'
+  url 'http://thoughtbot.github.io/gitsh/gitsh-0.5.tar.gz'
+  sha1 '1221ab0c0eeaed7544abf91f9a9851f477b00bea'
 
   def self.old_system_ruby?
     system_ruby_version = `#{SYSTEM_RUBY_PATH} -e "puts RUBY_VERSION"`.chomp
-    system_ruby_version < '2.0.0'
+    system_ruby_version < '1.9.3'
   end
 
   if old_system_ruby?
