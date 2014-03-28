@@ -2,8 +2,8 @@ require 'formula'
 
 class Rcm < Formula
   homepage 'http://thoughtbot.github.io/rcm'
-  url 'http://thoughtbot.github.io/rcm/dist/rcm-1.2.1.tar.gz'
-  sha1 '434bdfbb1df8e610586cd9042a1e2ac614290ca7'
+  url 'http://thoughtbot.github.io/rcm/dist/rcm-1.2.2.tar.gz'
+  sha1 '844f4325e1eadeb2cf838629e5533b8d7450d0d9'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
