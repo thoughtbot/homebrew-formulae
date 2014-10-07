@@ -2,8 +2,8 @@ require 'formula'
 
 class Liftoff < Formula
   homepage 'https://github.com/thoughtbot/liftoff'
-  url 'http://thoughtbot.github.io/liftoff/Liftoff-1.4.tar.gz'
-  sha1 '2f53813ccf69b728d0b10eb3c792fef99392b080'
+  url 'http://thoughtbot.github.io/liftoff/Liftoff-1.4.1.tar.gz'
+  sha1 '0e79553cab26531d731e959ad5fe94950e3d6344'
 
   depends_on 'xcproj' => :recommended
 
