@@ -9,9 +9,6 @@ class Parity < Formula
   depends_on "heroku-toolbelt"
 
   def install
-    # Add the lib/ directory to the Ruby load path at the top of the file
-    inreplace "lib/parity.rb", /\A/, "$LOAD_PATH << File.dirname(__FILE__)\n\n"
-
     prefix.install "lib" => "lib"
 
     bin.install "bin/development", "bin/staging", "bin/production"
