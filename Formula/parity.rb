@@ -2,9 +2,9 @@ require "formula"
 
 class Parity < Formula
   homepage "https://github.com/croaky/parity"
-  url "https://github.com/croaky/parity/releases/download/v0.5.0/parity-0.5.0-osx.tar.gz"
-  version "0.5.0"
-  sha256 "626df68d2d2c07d699b3ab63ef6ba91a4ea2d35dd672e2cca217a6e13fe9fbcc"
+  url "https://github.com/croaky/parity/releases/download/v0.5.1/parity-0.5.1-osx.tar.gz"
+  version "0.5.1"
+  sha256 "929bd4a774f80e25ed68fd232ce473f28f41ea00e604e6e57f7ac02c4eff0998"
 
   depends_on "heroku-toolbelt"
 
