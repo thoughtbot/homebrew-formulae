@@ -1,8 +1,8 @@
 require "formula"
 
 class Parity < Formula
-  homepage "https://github.com/croaky/parity"
-  url "https://github.com/croaky/parity/releases/download/v0.6.0/parity-0.6.0-osx.tar.gz"
+  homepage "https://github.com/thoughtbot/parity"
+  url "https://github.com/thoughtbot/parity/releases/download/v0.6.0/parity-0.6.0-osx.tar.gz"
   version "0.6.0"
   sha256 "e2983aa4057c9f72fed390abe73fda223a76352b3648391b2d4f1df652d2e4ec"
 
