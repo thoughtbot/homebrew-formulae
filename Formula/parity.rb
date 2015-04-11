@@ -6,7 +6,9 @@ class Parity < Formula
   version "0.7.0"
   sha256 "3c9b9bf2a950c7a18e67800bdd6676cb415dd17a3acb4189a85184804d403f33"
 
+  depends_on "git"
   depends_on "heroku-toolbelt"
+  depends_on "postgres"
 
   def install
     prefix.install "lib" => "lib"
