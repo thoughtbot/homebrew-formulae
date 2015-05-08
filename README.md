@@ -1,6 +1,8 @@
 # Homebrew Formulae
 
-A Homebrew tap for various thoughtbot projects.
+A [Homebrew tap] for various thoughtbot projects.
+
+[Homebrew tap]: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/brew-tap.md
 
 ## Usage
 
