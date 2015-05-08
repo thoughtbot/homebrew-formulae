@@ -1,4 +1,4 @@
-# homebrew-formulae
+# Homebrew Formulae
 
 A Homebrew tap for various thoughtbot projects.
 
