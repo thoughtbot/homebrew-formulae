@@ -2,8 +2,8 @@ require "formula"
 
 class Pick < Formula
   homepage "http://thoughtbot.github.io/pick/"
-  url "https://github.com/thoughtbot/pick/releases/download/v1.1.1/pick-1.1.1.tar.gz"
-  sha1 "6197e968c44e496fcce361936766e5d5150eaa49"
+  url "https://github.com/thoughtbot/pick/releases/download/v1.2.0/pick-1.2.0.tar.gz"
+  sha1 "acbe6428c422733b8d89f58f64fde031ad3006b8"
 
   def install
     system "./configure", "--prefix=#{prefix}"
