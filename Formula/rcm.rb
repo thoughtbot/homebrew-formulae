@@ -1,9 +1,8 @@
-require 'formula'
-
 class Rcm < Formula
-  homepage 'http://thoughtbot.github.io/rcm'
-  url 'http://thoughtbot.github.io/rcm/dist/rcm-1.2.3.tar.gz'
-  sha1 'f89e64f45d714567f54474b3b4cc825b130ab114'
+  desc "management suite for dotfiles"
+  homepage "https://thoughtbot.github.io/rcm"
+  url "https://thoughtbot.github.io/rcm/dist/rcm-1.3.0.tar.gz"
+  sha1 "10a04bf8a299f7a4991006e65a7d8fb95615565b"
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
