@@ -2,9 +2,9 @@ require "formula"
 
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
-  url "https://github.com/thoughtbot/parity/releases/download/v0.8.0/parity-0.8.0-osx.tar.gz"
-  version "0.8.0"
-  sha256 "c98bc7cc601a2b2be7bdcc16f0e470c9e2b59673005b56c6e6e83152a17ab916"
+  url "https://github.com/thoughtbot/parity/releases/download/v0.9.0/parity-0.9.0-osx.tar.gz"
+  version "0.9.0"
+  sha256 "d517bc7a1f378e1fdb7203a16ac85c1013a32d5d44e5810321623f651fa09c0a"
 
   depends_on "git"
   depends_on "heroku-toolbelt"
