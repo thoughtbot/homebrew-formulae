@@ -1,7 +1,7 @@
 require "formula"
 
 class Pick < Formula
-  homepage "http://thoughtbot.github.io/pick/"
+  homepage "https://github.com/thoughtbot/pick"
   url "https://github.com/thoughtbot/pick/releases/download/v1.2.1/pick-1.2.1.tar.gz"
   sha1 "36a8fd3c5727bfac69543197cfe91c263053d11d"
 
