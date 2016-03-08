@@ -5,6 +5,7 @@ class Parity < Formula
   url "https://github.com/thoughtbot/parity/releases/download/v0.9.2/parity-0.9.2-osx.tar.gz"
   version "0.9.2.1"
   sha256 "d56827ce379958b5abe386f6afff3b012275f43a6d982f524c54bb8a790cee20"
+  head "https://github.com/thoughtbot/parity"
 
   depends_on "git"
   depends_on "heroku-toolbelt"
