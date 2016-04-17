@@ -3,7 +3,7 @@ require 'formula'
 class Liftoff < Formula
   homepage 'https://github.com/thoughtbot/liftoff'
   url 'http://thoughtbot.github.io/liftoff/Liftoff-1.6.0.tar.gz'
-  sha1 'e7b1baf1124cf70da5f178da6c6a3fe6e79ced87'
+  sha256 'e532a7701720513cca82bdbda6cf5f609cffd2726072b5bd5456a24662639cfa'
 
   depends_on 'xcproj' => :recommended
 
