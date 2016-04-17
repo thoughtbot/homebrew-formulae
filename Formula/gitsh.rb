@@ -6,7 +6,7 @@ class Gitsh < Formula
 
   homepage 'https://github.com/thoughtbot/gitsh'
   url 'http://thoughtbot.github.io/gitsh/gitsh-0.10.tar.gz'
-  sha1 'f3b62fb6bf6b7cce003df6324512f67cdc3a9061'
+  sha256 '538558c2f385efc6130ef4e412776055820417c5c87483dbf3568bf31f1f09e3'
 
   def self.old_system_ruby?
     system_ruby_version = `#{SYSTEM_RUBY_PATH} -e "puts RUBY_VERSION"`.chomp
