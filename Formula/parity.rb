@@ -2,6 +2,7 @@ require "formula"
 
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
+  head "https://github.com/thoughtbot/parity.git"
   sha256 "693e2f05ba5eccca7a526be7ae0afc25dcddea6ad55cd998bc9b6935920920f0"
   url "https://github.com/thoughtbot/parity/releases/download/v2.0.1/parity-2.0.1-osx.tar.gz"
   version "2.0.1"
