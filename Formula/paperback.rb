@@ -2,7 +2,7 @@ require "formula"
 
 class Paperback < Formula
   homepage ""
-  version "0.1.1"
+  version "0.1.2"
 
   if Hardware::CPU.is_64_bit?
     url "https://s3.amazonaws.com/homebrew-formulae/go-paperback_v0.1.1_darwin_amd64.tar.gz"
