@@ -16,6 +16,7 @@ Install the packages it contains like any other Homebrew package:
     brew install liftoff
     brew install parity
     brew install rcm
+    brew install suspenders
 
 ## Contributing
 
@@ -25,3 +26,4 @@ Submit pull requests against the respective repos:
 * [liftoff](https://github.com/thoughtbot/liftoff)
 * [parity](https://github.com/thoughtbot/parity)
 * [rcm](https://github.com/thoughtbot/rcm)
+* [suspenders](https://github.com/thoughtbot/suspenders)
