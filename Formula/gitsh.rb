@@ -6,8 +6,8 @@ class Gitsh < Formula
 
   env :std
   homepage 'https://github.com/thoughtbot/gitsh/'
-  url 'http://thoughtbot.github.io/gitsh/gitsh-0.11.1.tar.gz'
-  sha256 'a3e868d140e9972b20c022ff43c761d2643026b10e2c6f67f0ccf47f891a4d6f'
+  url 'http://thoughtbot.github.io/gitsh/gitsh-0.11.2.tar.gz'
+  sha256 'e8d4f65b23a0d9c134d7fc61105f439ff70e6350c4945045959dbd851985d8f5'
 
   def self.old_system_ruby?
     system_ruby_version = `#{SYSTEM_RUBY_PATH} -e "puts RUBY_VERSION"`.chomp
@@ -21,6 +21,7 @@ class Gitsh < Formula
 
   def install
     set_ruby_path
+    set_architecture
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
@@ -40,5 +41,9 @@ class Gitsh < Formula
     else
       ENV['RUBY'] = SYSTEM_RUBY_PATH
     end
+  end
+
+  def set_architecture
+    ENV['READLINE_ARCH'] = "-arch #{MacOS.preferred_arch}"
   end
 end
