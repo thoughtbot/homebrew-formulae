@@ -8,6 +8,7 @@ class Liftoff < Formula
   depends_on 'xcproj' => :recommended
 
   def install
+    opoo 'This tap for Liftoff has been deprecated and will no longer be updated! Please move to the new tap at liftoffcli/formula as soon as possible.'
     prefix.install 'defaults', 'templates', 'vendor'
     prefix.install 'lib' => 'rubylib'
 
