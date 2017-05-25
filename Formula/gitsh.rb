@@ -6,8 +6,8 @@ class Gitsh < Formula
 
   env :std
   homepage 'https://github.com/thoughtbot/gitsh/'
-  url 'http://thoughtbot.github.io/gitsh/gitsh-0.11.2.tar.gz'
-  sha256 'd3ef8f88417ff9bef7fd95bcd1d9011d9adaed2213094a2d056266169da1bcec'
+  url 'http://thoughtbot.github.io/gitsh/gitsh-0.12.tar.gz'
+  sha256 '73d8251f66f43b0e2c1ebcc8047f30d405d245f53fa35ca9ed96cfe0bead9510'
 
   def self.old_system_ruby?
     system_ruby_version = `#{SYSTEM_RUBY_PATH} -e "puts RUBY_VERSION"`.chomp
