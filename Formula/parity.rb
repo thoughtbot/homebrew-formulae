@@ -3,9 +3,9 @@ require "formula"
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
   head "https://github.com/thoughtbot/parity.git"
-  sha256 "e9381fd8ee3d8036d9843198584cdf742ee4470af26a19eba45eaeb5f4ec39eb"
-  url "https://github.com/thoughtbot/parity/releases/download/v2.2.0/parity-2.2.0.tar.gz"
-  version "2.2.0"
+  sha256 "90d80c4560d1b7f4bf569498afb3e752b5be69dce560e32c6cb53ba93352d3c7"
+  url "https://github.com/thoughtbot/parity/archive/2.2.1.tar.gz"
+  version "2.2.1"
 
   depends_on "git"
   depends_on "heroku-toolbelt"
