@@ -1,8 +1,8 @@
 class Rcm < Formula
   desc "management suite for dotfiles"
   homepage "https://thoughtbot.github.io/rcm"
-  url "https://thoughtbot.github.io/rcm/dist/rcm-1.3.2.tar.gz"
-  sha256 "2f31b49c241ed6e74578fc71e6b2ba3a87183d311f28e05b9f7cc7c1c55dda64"
+  url "https://thoughtbot.github.io/rcm/dist/rcm-1.3.3.tar.gz"
+  sha256 "935524456f2291afa36ef815e68f1ab4a37a4ed6f0f144b7de7fb270733e13af"
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
