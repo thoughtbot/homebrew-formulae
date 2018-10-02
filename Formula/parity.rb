@@ -3,13 +3,13 @@ require "formula"
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
   head "https://github.com/thoughtbot/parity.git"
-  sha256 "887750880c1b290c667216d8e2a6cbed09fc5a4f7278ae2574a3f7e29fa16ba5"
-  url "https://github.com/thoughtbot/parity/archive/2.4.0.tar.gz"
-  version "2.4.0"
+  sha256 "600e81753d6b5b765371fe135883bfdb92812e0dfd7cb6eb8078ab7439389617 "
+  url "https://github.com/thoughtbot/parity/archive/v3.0.0.tar.gz"
+  version "3.0.0"
 
   depends_on "git"
-  depends_on "heroku-toolbelt"
-  depends_on "postgres" => :optional
+  depends_on "heroku-toolbelt" => :recommended
+  depends_on "postgres" => :recommended
 
   def install
     lib.install Dir["lib/*"]
@@ -18,15 +18,16 @@ class Parity < Formula
   end
 
   devel do
-    url "https://github.com/thoughtbot/parity/releases/download/development/parity-development.tar.gz"
+    url "https://github.com/thoughtbot/parity/releases/tag/development-20171006a"
 
     depends_on "git"
-    depends_on "heroku-toolbelt"
+    depends_on "heroku-toolbelt" => :recommended
     depends_on "postgres" => :recommended
   end
 
   test do
     system "#{bin}/development", "--version"
+    system "#{bin}/pr_app", "--version"
     system "#{bin}/production", "--version"
     system "#{bin}/staging", "--version"
   end
