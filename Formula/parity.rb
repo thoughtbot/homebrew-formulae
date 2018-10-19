@@ -3,7 +3,7 @@ require "formula"
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
   head "https://github.com/thoughtbot/parity.git"
-  sha256 "600e81753d6b5b765371fe135883bfdb92812e0dfd7cb6eb8078ab7439389617 "
+  sha256 "600e81753d6b5b765371fe135883bfdb92812e0dfd7cb6eb8078ab7439389617"
   url "https://github.com/thoughtbot/parity/archive/v3.0.0.tar.gz"
   version "3.0.0"
 
