@@ -8,7 +8,7 @@ class Parity < Formula
   version "3.0.0"
 
   depends_on "git"
-  depends_on "heroku-toolbelt" => :recommended
+  depends_on "heroku/brew/heroku" => :recommended
   depends_on "postgres" => :recommended
 
   def install
@@ -21,7 +21,7 @@ class Parity < Formula
     url "https://github.com/thoughtbot/parity/releases/tag/development-20171006a"
 
     depends_on "git"
-    depends_on "heroku-toolbelt" => :recommended
+    depends_on "heroku/brew/heroku" => :recommended
     depends_on "postgres" => :recommended
   end
 
