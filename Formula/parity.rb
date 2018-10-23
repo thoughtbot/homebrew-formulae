@@ -5,7 +5,7 @@ class Parity < Formula
   head "https://github.com/thoughtbot/parity.git"
   sha256 "600e81753d6b5b765371fe135883bfdb92812e0dfd7cb6eb8078ab7439389617"
   url "https://github.com/thoughtbot/parity/archive/v3.0.0.tar.gz"
-  version "3.0.0"
+  version "3.0.0.1"
 
   depends_on "git"
   depends_on "heroku/brew/heroku" => :recommended
@@ -14,7 +14,7 @@ class Parity < Formula
   def install
     lib.install Dir["lib/*"]
 
-    bin.install "bin/development", "bin/staging", "bin/production"
+    bin.install "bin/development", "bin/staging", "bin/production", "bin/pr_app"
   end
 
   devel do
