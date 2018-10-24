@@ -3,9 +3,8 @@ require "formula"
 class Parity < Formula
   homepage "https://github.com/thoughtbot/parity"
   head "https://github.com/thoughtbot/parity.git"
-  sha256 "600e81753d6b5b765371fe135883bfdb92812e0dfd7cb6eb8078ab7439389617"
-  url "https://github.com/thoughtbot/parity/archive/v3.0.0.tar.gz"
-  version "3.0.0.1"
+  sha256 "2f4b600b4d8d88507c632e8b994d3827a3c5ff577b3f997c0e57d81229fe22e7"
+  url "https://github.com/thoughtbot/parity/archive/3.0.1.tar.gz"
 
   depends_on "git"
   depends_on "heroku/brew/heroku" => :recommended
