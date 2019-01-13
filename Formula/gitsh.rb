@@ -6,7 +6,7 @@ class Gitsh < Formula
 
   env :std
   homepage 'https://github.com/thoughtbot/gitsh/'
-  url 'http://thoughtbot.github.io/gitsh/gitsh-0.13.tar.gz'
+  url 'https://thoughtbot.github.io/gitsh/gitsh-0.13.tar.gz'
   sha256 '267882a457efd3013011b17a1d5fbccdd1ff040be2990ec1459ddf5c3ac13cf8'
 
   def self.old_system_ruby?
