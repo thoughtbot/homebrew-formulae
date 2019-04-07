@@ -7,6 +7,7 @@ class Gitsh < Formula
   env :std
   homepage 'https://github.com/thoughtbot/gitsh/'
   url 'https://thoughtbot.github.io/gitsh/gitsh-0.14.tar.gz'
+  head 'https://github.com/thoughtbot/gitsh.git'
   sha256 '4b89b6d006326a7b57c4c8e440594e477db61b7d3fe2633a8aad176bb19d0125'
 
   def self.old_system_ruby?
@@ -22,6 +23,15 @@ class Gitsh < Formula
   def install
     set_ruby_path
     set_architecture
+
+    if build.head?
+      system './autogen.sh'
+      system 'RUBY="$(which ruby)" ./configure'
+      system 'make release_build_tarball'
+      system 'tar -xzvf gitsh-0.14.tar.gz'
+      chdir 'gitsh-0.14'
+    end
+
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
