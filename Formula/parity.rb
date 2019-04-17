@@ -9,7 +9,7 @@ class Parity < Formula
     url "https://github.com/thoughtbot/parity/releases/tag/development-20171006a"
   end
 
-  depends_on "heroku-toolbelt" => :recommended
+  depends_on "heroku/brew/heroku" => :recommended
   depends_on "postgresql" => :recommended
 
   def install
