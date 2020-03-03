@@ -1,7 +1,7 @@
 class Parity < Formula
   desc "Shell commands for environment parity for Heroku apps"
   homepage "https://github.com/thoughtbot/parity"
-  url "https://github.com/thoughtbot/parity/archive/v3.3.0.tar.gz"
+  url "https://github.com/thoughtbot/parity/archive/3.3.0.tar.gz"
   sha256 "a0f22b73482cf3117d17b1176fe83f0ea510456ad0333e56339129059c25c845"
   head "https://github.com/thoughtbot/parity.git"
 
