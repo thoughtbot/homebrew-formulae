@@ -5,10 +5,6 @@ class Parity < Formula
   sha256 "a0f22b73482cf3117d17b1176fe83f0ea510456ad0333e56339129059c25c845"
   head "https://github.com/thoughtbot/parity.git"
 
-  devel do
-    url "https://github.com/thoughtbot/parity/releases/tag/development-20171006a"
-  end
-
   depends_on "heroku/brew/heroku" => :recommended
   depends_on "postgresql" => :recommended
 
