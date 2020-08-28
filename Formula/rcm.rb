@@ -5,6 +5,7 @@ class Rcm < Formula
   sha256 "935524456f2291afa36ef815e68f1ab4a37a4ed6f0f144b7de7fb270733e13af"
 
   def install
+    opoo 'This tap for rcm has been deprecated and will no longer be updated! Please move to the official Homebrew Core release as soon as possible.'
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
     system "make", "install"

@@ -14,7 +14,6 @@ Install the packages it contains like any other Homebrew package:
 
     brew install gitsh
     brew install parity
-    brew install rcm
 
 ## Contributing
 
@@ -22,4 +21,3 @@ Submit pull requests against the respective repos:
 
 * [gitsh](https://github.com/thoughtbot/gitsh)
 * [parity](https://github.com/thoughtbot/parity)
-* [rcm](https://github.com/thoughtbot/rcm)
