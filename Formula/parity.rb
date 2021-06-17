@@ -1,8 +1,8 @@
 class Parity < Formula
   desc "Shell commands for environment parity for Heroku apps"
   homepage "https://github.com/thoughtbot/parity"
-  url "https://github.com/thoughtbot/parity/archive/3.3.0.tar.gz"
-  sha256 "a0f22b73482cf3117d17b1176fe83f0ea510456ad0333e56339129059c25c845"
+  url "https://github.com/thoughtbot/parity/archive/3.4.0.tar.gz"
+  sha256 "bea956bfbe45f681fea3310aa176979734a7ce4a4c5d9ba9ddc644a1df0ca596"
   head "https://github.com/thoughtbot/parity.git"
 
   depends_on "heroku/brew/heroku" => :recommended
