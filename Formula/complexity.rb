@@ -1,8 +1,8 @@
 class Complexity < Formula
   desc "Identify complex code"
   homepage "https://github.com/thoughtbot/complexity"
-  url "https://github.com/thoughtbot/complexity/archive/0.3.0.tar.gz"
-  sha256 "d46d060cc6981fd3071064eb9b493466bea4a152ed1c9bfed4f7afc1677327da"
+  url "https://github.com/thoughtbot/complexity/archive/0.4.1.tar.gz"
+  sha256 "3a9719d64379012ebf185cc914dbc9e76897f82c0fefc0d609370f351c812e93"
   license "MIT"
   head "https://github.com/thoughtbot/complexity.git"
 
