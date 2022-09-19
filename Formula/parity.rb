@@ -6,7 +6,7 @@ class Parity < Formula
   head "https://github.com/thoughtbot/parity.git"
 
   depends_on "heroku/brew/heroku" => :recommended
-  depends_on "postgresql" => :recommended
+  depends_on "postgresql@14" => :recommended
 
   def install
     lib.install Dir["lib/*"]
